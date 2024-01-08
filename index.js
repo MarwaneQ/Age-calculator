@@ -5,17 +5,39 @@ let ul = document.createElement('ul')
 for (let index = 0; index < 3; index++) {
     let li = document.createElement('li')
     ul.appendChild(li)
-    li.className = `li-${index}`
-    
+    let a = document.createElement('a')
+    a.className = `link-${index}`
+    a.href = ''
+    li.appendChild(a)
+    li.style.cssText=`
+padding: 0px 10px;
+font-weight: bold;
+`
+a.style.cssText = `
+text-decoration: none;
+`
+
 }
 navBar.appendChild(ul)
 
-document.querySelector('.li-0').textContent = 'Home'
-document.querySelector('.li-1').textContent = 'About'
-document.querySelector('.li-2').textContent = 'Contact'
+document.querySelector('.link-0').textContent = 'Home'
+document.querySelector('.link-1').textContent = 'About'
+document.querySelector('.link-2').textContent = 'Contact'
 navBar.style.cssText = `
 background-color: #eee;
 height: 9vh;
 color: black;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+display: flex;
+align-items: center;
+justify-content: flex-end;
+
 `
+ul.style.cssText = `
+display : flex;
+list-style-type: none;
+padding: 0px 15px;
+
+`
+
 
