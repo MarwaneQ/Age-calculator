@@ -23,6 +23,9 @@ navBar.appendChild(ul)
 document.querySelector('.link-0').textContent = 'Home'
 document.querySelector('.link-1').textContent = 'About'
 document.querySelector('.link-2').textContent = 'Contact'
+document.body.style.cssText =`
+font-family: 'Rubik', sans-serif;
+`
 navBar.style.cssText = `
 background-color: #eee;
 height: 9vh;
@@ -38,6 +41,8 @@ display : flex;
 list-style-type: none;
 padding: 0px 15px;
 
+
 `
+
 
 
