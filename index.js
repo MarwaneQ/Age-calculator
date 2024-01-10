@@ -43,6 +43,10 @@ padding: 0px 15px;
 
 
 `
+let main = document.createElement('section')
+main.className = 'main'
+document.body.appendChild(main)
+
 
 
 
