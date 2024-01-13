@@ -55,5 +55,22 @@ main.className = 'main'
 document.body.appendChild(main)
 
 
-
-
+// function name(num1,num2) {
+//     let result = num1*num2;
+//     return result
+// }
+// console.log(name(3,2));
+// let x = function(a,b){
+//     console.log('hi from x');
+// }
+// console.log(x.length);
+// function name() {
+//     console.log('hellooo');
+// }
+// function callOtherFunction(otherfun){
+//     otherfun()
+// }
+// callOtherFunction(name)
+setTimeout(function() {
+    console.log('hey');
+},10000)
