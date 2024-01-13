@@ -12,6 +12,12 @@ for (let index = 0; index < 3; index++) {
     li.style.cssText=`
 padding: 0px 10px;
 font-weight: bold;
+font-weight: bold;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0 10px;
+
 `
 a.style.cssText = `
 text-decoration: none;
@@ -19,12 +25,13 @@ text-decoration: none;
 
 }
 navBar.appendChild(ul)
-
 document.querySelector('.link-0').textContent = 'Home'
 document.querySelector('.link-1').textContent = 'About'
 document.querySelector('.link-2').textContent = 'Contact'
 document.body.style.cssText =`
 font-family: 'Rubik', sans-serif;
+background-color: #eee;
+
 `
 navBar.style.cssText = `
 background-color: #eee;
@@ -46,6 +53,7 @@ padding: 0px 15px;
 let main = document.createElement('section')
 main.className = 'main'
 document.body.appendChild(main)
+
 
 
 
