@@ -74,3 +74,4 @@ document.body.appendChild(main)
 setTimeout(function() {
     console.log('hey');
 },10000)
+let s = setTimeout()
