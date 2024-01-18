@@ -1,3 +1,4 @@
+import anime from 'animejs/lib/anime.es.js';
 let navBar = document.createElement('nav')
 navBar.className = 'NavSection'
 document.body.appendChild(navBar)
@@ -71,7 +72,4 @@ document.body.appendChild(main)
 //     otherfun()
 // }
 // callOtherFunction(name)
-setTimeout(function() {
-    console.log('hey');
-},10000)
-let s = setTimeout()
+
